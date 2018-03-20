@@ -13,7 +13,7 @@
 2. Once installed, open __x64 Native Tools Command Prompt for VS 2017__. *Make sure __not__ to open Windows' Command Prompt*
 3. Create a folder for the repository and run `git clone https://github.com/Microsoft/AirSim.git`
 4. Start to install [CMake](https://cmake.org/download/). A few notes:
-   - When installing, by default, the installer sets it such that cmake won't be on PATH. So, make sure to check the box, setting it to be on PATH. If you don't, when trying to run it later on, it will give you errors with: `find: 'cmake version': No such file or directory` ([Source] (https://github.com/Microsoft/AirSim/issues/755))
+   - When installing, by default, the installer sets it such that cmake won't be on PATH. So, make sure to check the box, setting it to be on PATH. If you don't, when trying to run it later on, it will give you errors with: `find: 'cmake version': No such file or directory` ([Source](https://github.com/Microsoft/AirSim/issues/755))
    - To test to make sure CMake was properly installed, go into the directory of AirSim and type in `cmake` to make sure you don't get an error
    - CMake will be used to build the **rpclib** submodule
 5. Go to the AirSim directory, while still on __x64 Native Tools Command Prompt for VS 2017__, and run `build.cmd` from that command prompt. This will create ready to use plugin bits in the `Unreal\Plugins` folder that can be dropped into any Unreal project. 
