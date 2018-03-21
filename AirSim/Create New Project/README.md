@@ -165,5 +165,13 @@ In this specific example, there are multiple hangliders starting off from multip
 ## Running It
 At this point, you may choose to either press on the "Play" button to run a diluted down simulation, or you may press on "Launch" button adjacent to "Play" in order to run the simulation more "*officially*"
 
+## Inputs to Quadcopter
+![xbox360](https://raw.githubusercontent.com/nicolasshu/Guides/master/AirSim/Create%20New%20Project/images/xbox360controller.jpg)
+When using an Xbox 360 Controller on a drone, below are the inputs to the drone:
+
+### Movement - Joystick (T,R,P,Y,Buttons)
+Assuming (L) is for the left analog stick, and (R) is for the right analog stick, four floats are passed to the simulator, as 
+$[L_{vertical}, R_{horizontal}, R_{vertical}, L_{horizontal} ]$, 
+where the bounds are:
 
 (This was edited in [StackEdit](https://stackedit.io/))
