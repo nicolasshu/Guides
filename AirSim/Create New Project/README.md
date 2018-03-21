@@ -173,11 +173,12 @@ When using an Xbox 360 Controller on a drone, below are the inputs to the drone:
 ### Movement - Joystick (T,R,P,Y,Buttons)
 Assuming (L) is for the left analog stick, and (R) is for the right analog stick, four floats are passed to the simulator, as 
 Joystick (T,R,P,Y,Buttons): [L_vert, R_horiz, R_vert, L_horiz]
+
 where the bounds are:
-L_vert = [0,1]
-R_horiz = [-1,1]
-R_vert = [-1,1]
-L_horiz = [-1,1]
+  - L_vert = [0,1]
+  - R_horiz = [-1,1]
+  - R_vert = [-1,1]
+  - L_horiz = [-1,1]
 
 ### Buttons
 Each of the buttons have a specific code associated with then through binary:
