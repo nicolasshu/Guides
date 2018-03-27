@@ -6,7 +6,7 @@
 2. Run the Epic Games Launcher, and open the Library Tab on the left
 3. Click on "Add Versions", which should show the option to download __Unreal 4.16__
 4. If you have multiple versions of Unreal installed, then make sure 4.16 is the "Current" by clicking down arrow next to the Launch button for the version
-![UnrealEngine](https://github.com/nicolasshu/Guides/blob/master/AirSim/Installation%20on%20Windows/images/Install_UnrealEngine_1.jpg?raw=true)
+![UnrealEngine](https://github.com/nicolasshu/Guides/blob/master/AirSim/Installation/images/Install_UnrealEngine_1.jpg?raw=true)
 
 ## Build AirSim
 1. Install [**Visual Studio 2017**](https://www.visualstudio.com/downloads/). In such case, if you download **Visual Studio Code**, it will **NOT** have some of the tools necessary to complete the installation. I would suggest using **Visual Studio Community**. 
@@ -21,7 +21,7 @@
       1. Go to 'Control Panel' and select the "Modify/Change" button for 'Microsoft Visual Studio"
       2. Under the "Summary" pane of the workload selector, click the "Desktop development with C++" expander (if it is collapsed)
       3. Check the "VC++ 2015.3 v140 toolset (x86,x64)" optional feature 
-   ![v140](https://github.com/nicolasshu/Guides/blob/master/AirSim/Installation%20on%20Windows/images/v140%20Toolset%20Error.png?raw=true)
+   ![v140](https://github.com/nicolasshu/Guides/blob/master/AirSim/Installation/images/v140%20Toolset%20Error.png?raw=true)
    
 6. Now you have finished installing AirSim which uses Unreal Engine.
 
