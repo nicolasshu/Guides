@@ -104,8 +104,10 @@ In this set of instructions, `<...>` denotes a dummy for any file.
 	 > `-m scoop` indicates that it will use the Scoop library, which is a Python library for parallel programming
 	 > `-n <#-workers>` is the number of workers (or threads) that will be used for the parallel programming
 	 > `-d, --database` specifies the database connection string
+	 
 	 > `mysql://root:<yourPassword>@<host-IP-address>/testDB` tells the connection string of the database
 	 > `<yourPassword>` is the password for the MySQL host
+	 
 	 > `<host-IP-address>` is the IP address of the host's computer (assuming it is under the same Wi-Fi) or it will be `localhost` is the work being deployed is located at the same computer as of the Master node
 	 > `testDB` is the name of the SQL database that will be worked on
 	 > `2>&1 | tee outputLog.txt` essentially keeps showing the outputs in the Terminal, and writes it to an output file
