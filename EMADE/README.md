@@ -48,7 +48,7 @@ EMADE requires the following Python Libraries
 	- Close the current Terminal and open a new one in order to change the default python version. 
 	- **Note:** _As of 2018-03-20, when trying to run `$ anaconda-navigator`, it will not be able to run, and you will have to downgrade pip to the version 9.0.1 with `$ pip install pip==9.0.1`_
 	> By this point, you should have your Home folder as
-![Step 6](http://cdn.shopify.com/s/files/1/1482/3564/products/hello_grande.786)
+![Step 6](https://raw.githubusercontent.com/nicolasshu/Guides/master/EMADE/images/step6.png)
 5. Change to the EMADE directory with `$ cd emade`
 6. Install [OpenCV](https://opencv.org/) with `$ conda install opencv`
 	> This is a super nice library that is widely used for computer vision applications
@@ -61,7 +61,7 @@ EMADE requires the following Python Libraries
 10. Now you should be almost set! At this point, you will be on the Git Branch _`python3_conve`_. This is not the branch we're looking for. The one we want to work with is the _`Image`_ branch. So change the branch it with `$ git checkout Image`
 11. Build all of the required files with `$ bash reinstall.sh`
 12.  Install [MySQL](https://www.mysql.com/) with `$ sudo apt-get update` and `$ sudo apt-get install mysql-server`. After the installation is complete, the  `mysql_secure_installation` utility will run, prompting you to define the mysql root password.
-![Step12](...
+![Step12](https://raw.githubusercontent.com/nicolasshu/Guides/master/EMADE/images/step12.png)
 
 ## Running EMADE
 EMADE works by using a master-worker design pattern. 
