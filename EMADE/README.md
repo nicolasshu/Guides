@@ -102,16 +102,23 @@ In this set of instructions, `<...>` denotes a dummy for any file.
  4. Deploy Worker nodes (with parallel threads)
 	 `python -m scoop -n <#-workers> src/GPFramework/didLaunch.py myPickleFile#####.dat -d mysql://root:<yourPassword>@<host-IP-address>/testDB 2>&1 | tee outputLog.txt`
 	 > `-m scoop` indicates that it will use the Scoop library, which is a Python library for parallel programming
+	 
 	 > `-n <#-workers>` is the number of workers (or threads) that will be used for the parallel programming
+	 
 	 > `-d, --database` specifies the database connection string
 	 
 	 > `mysql://root:<yourPassword>@<host-IP-address>/testDB` tells the connection string of the database
+	 
 	 > `<yourPassword>` is the password for the MySQL host
 	 
 	 > `<host-IP-address>` is the IP address of the host's computer (assuming it is under the same Wi-Fi) or it will be `localhost` is the work being deployed is located at the same computer as of the Master node
+	 
 	 > `testDB` is the name of the SQL database that will be worked on
+	 
 	 > `2>&1 | tee outputLog.txt` essentially keeps showing the outputs in the Terminal, and writes it to an output file
+	 
 	 > `2>&1` redirects standard error (`2`) to standard output (`1`), which then discards it as well since standard output has already been redirected.
+	 
 	 > `tee outputLog.txt` is a command in shells using standard streams which reads standard input and writes it to both standard out put and one or more files, effectively duplicating its input, in which the `outputLog.txt` is the output file. 
 
 	 
